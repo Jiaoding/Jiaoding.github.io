@@ -44,7 +44,7 @@
 
 <!-- variable -->
 <script>window.TYPED_TEXT=[
-  "Web Developer"
+  "Embedded Engineer"
 ]</script>
 <script>window.FAVICON={
   "icon16": null,
@@ -261,7 +261,7 @@
         <div class="trm-mc-header">
             <div class="trm-avatar-frame trm-mb-20"><img class="trm-avatar" src="博主头像信息" alt="Avatar"> </div>
             <h5 class="trm-name trm-mb-15">
-                J!add!ng
+                J!aod!ng
             </h5>
             <div class="trm-label">
                 I`m
@@ -307,7 +307,7 @@
                         City:
                     </div>
                     <div class="trm-label trm-label-light">
-                        WuHan
+                        Suzhou
                     </div>
                 </li>
             
@@ -316,7 +316,7 @@
                         Age:
                     </div>
                     <div class="trm-label trm-label-light">
-                        18
+                        18 forever
                     </div>
                 </li>
             
@@ -344,7 +344,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="trm-card trm-label trm-label-light text-center"><i class="far fa-user trm-icon"></i><br>
-                                J!add!ng
+                                J!aod!ng
                             </div>
                         </div>
                     </div>
@@ -454,7 +454,7 @@
     <div class="trm-label">
         ©  2022- 2022 ·
         <span class="trm-accent-color">
-            J!add!ng
+            J!aod!ng
         </span>
     </div>
     <div class="trm-label">
@@ -518,6 +518,16 @@
 
 
 <!-- Service Worker -->
+
+    <script>
+        "serviceWorker" in navigator ? navigator.serviceWorker.register('/sw.js').then(function () {
+            navigator.serviceWorker.controller ? 
+             console.log("Assets cached by the controlling service worker.") :
+             console.log("Please reload this page to allow the service worker to handle network operations.")
+        }).catch(function (e) {
+            console.log("ERROR: " + e)
+        }) : console.log("Service workers are not supported in the current browser.")
+    </script>
 
 
 <script src="/js/main.js?v=1.0.2"></script>

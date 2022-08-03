@@ -42,7 +42,7 @@
 
 <!-- variable -->
 <script>window.TYPED_TEXT=[
-  "Web Developer"
+  "Embedded Engineer"
 ]</script>
 <script>window.FAVICON={
   "icon16": null,
@@ -209,6 +209,16 @@
 
 
 <!-- Service Worker -->
+
+    <script>
+        "serviceWorker" in navigator ? navigator.serviceWorker.register('/sw.js').then(function () {
+            navigator.serviceWorker.controller ? 
+             console.log("Assets cached by the controlling service worker.") :
+             console.log("Please reload this page to allow the service worker to handle network operations.")
+        }).catch(function (e) {
+            console.log("ERROR: " + e)
+        }) : console.log("Service workers are not supported in the current browser.")
+    </script>
 
 
 <script src="/js/main.js?v=1.0.2"></script>
