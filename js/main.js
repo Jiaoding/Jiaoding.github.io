@@ -131,7 +131,7 @@ $(function () {
         }, 1000);
       });
     }
-    localStorage.setItem('theme-mode', !this.checked ? 'style-dark' : 'style-light')
+    localStorage.setItem('theme-mode', this.checked ? 'style-dark' : 'style-light')
   });
   /***************************
 
@@ -346,7 +346,7 @@ $(function () {
           }, 1000);
         });
       }
-      localStorage.setItem('theme-mode', !this.checked ? 'style-dark' : 'style-light')
+      localStorage.setItem('theme-mode', this.checked ? 'style-dark' : 'style-light')
     });
     /***************************
 
