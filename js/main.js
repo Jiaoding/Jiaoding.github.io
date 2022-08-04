@@ -96,7 +96,7 @@ $(function () {
   }
   $('.trm-mode-switcher').clone().appendTo('.trm-mode-switcher-place');
   $('#trm-swich').change(function () {
-    if (!this.checked) {
+    if (this.checked) {
       $('.trm-hidden-switcher input').prop("checked", true);
       $('.trm-mode-swich-animation-frame').addClass('trm-active');
       $("#trm-scroll-container").animate({
