@@ -1,5 +1,5 @@
-http://yoursite.com/2020/04/15/admin_template/
 http://yoursite.com/2020/04/15/admin_template%20copy/
+http://yoursite.com/2020/04/15/admin_template/
 http://yoursite.com/404.html
 http://yoursite.com/about/index.html
 http://yoursite.com/tags/index.html
